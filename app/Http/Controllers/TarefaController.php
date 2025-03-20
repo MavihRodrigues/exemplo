@@ -6,6 +6,10 @@ use Illuminate\Http\Request;
 
 class TarefaController extends Controller
 {
+    public function index(Request $request)
+    {
+    }
+
     public function store(Request $request)
     {
     }
